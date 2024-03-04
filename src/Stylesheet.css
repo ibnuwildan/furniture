@@ -1,0 +1,90 @@
+/* home */
+/* .home-banner {
+  background-image: url("./img/cover1.png");
+  background-size: cover;
+} */
+/* navbar */
+.navbar .nav-link {
+  color: lightgrey; /* Link text color */
+  position: relative;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+}
+.navbar .nav-link:hover {
+  color: #ffc107; /* Link text color on hover */
+}
+/* tabs home */
+.nav-pills {
+  width: 20% !important;
+}
+.nav-pills .nav-link {
+  background-color: lightgrey;
+  color: black;
+  border-radius: 0 !important;
+  font-size: small;
+}
+.row-tabs {
+  justify-content: center !important;
+  margin: auto !important;
+}
+.btn-tabs {
+  width: 3cm !important;
+  text-align: center !important;
+  margin: auto !important;
+  margin-top: 50px !important;
+}
+
+/* about */
+.header-text .headers1 a {
+  color: black !important;
+}
+.header-text .headers1 a:hover {
+  color: orange !important;
+}
+/* footer */
+
+.footer-col a {
+  text-decoration: none !important;
+  color: black;
+}
+.footer-col a:hover {
+  color: orange;
+}
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer-col h5 {
+  padding-bottom: 20px;
+  color: orange;
+}
+.footer-col img {
+  width: 2.5rem;
+  text-decoration: none;
+}
+
+.login{
+  background-image: url("./img/login.jpg");
+  background-size: cover;
+}
+.signup {
+  background-image: url("./img/signup.jpg");
+  background-size: cover;
+}
+
+@media (max-width: 767px) {
+  .img-text {
+    border: 1px solid;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  .img-text h3 {
+    font-size: small;
+  }
+  .img-text p {
+    font-size: smaller;
+  }
+}
